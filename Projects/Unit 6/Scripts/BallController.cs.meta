@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: 610d17a3508b1204ebf450951f351caf
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - rB: {instanceID: 0}
+  - swipeSound: {fileID: 8300000, guid: 113ee460fadc340e4957a7404a9fbb27, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
