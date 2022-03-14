@@ -7,13 +7,7 @@ public class Player : MonoBehaviour
     public float horizontalInput;
     private float speed = 30.0f;
     private float xRange = 20.0f;
-
-    public GameObject projectilePrefab; 
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    public GameObject projectilePrefab;
 
     // Update is called once per frame
     void Update()
