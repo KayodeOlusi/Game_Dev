@@ -38,10 +38,4 @@ public class LevelMoves : Level
             }
         }
     }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 }

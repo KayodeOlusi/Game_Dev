@@ -25,12 +25,6 @@ public class Target : MonoBehaviour
 
         transform.position = RandomPos();
     }
-    
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 
     private void OnMouseDown()
     {

@@ -21,12 +21,6 @@ public class SpawnManager : MonoBehaviour
         InvokeRepeating("SpawnObstacles", startDelay, repeatRate);
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
     void SpawnObstacles()
     {
         if (playerControllerScript.gameOver == false) {
