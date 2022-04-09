@@ -8,7 +8,7 @@ public class Enemy : MonoBehaviour
     private Rigidbody enemyRb;
     private GameObject player;
 
-    // Start is called before the first frame update
+    
     void Start()
     {
         // Reference the enemy Rigidbody
@@ -18,7 +18,7 @@ public class Enemy : MonoBehaviour
         player = GameObject.Find("Player");
     }
 
-    // Update is called once per frame
+    
     void Update()
     {
         //Vector3 variable to calculate the length between the enemy and player
