@@ -58,6 +58,7 @@ public class Target : MonoBehaviour
 
     Vector3 RandomPos()
     {
+        // Get random position
         return new Vector3(Random.Range(-xrandomPos, xrandomPos), Random.Range(yMinRanPos, yMaxRanPos));
     }
 }
