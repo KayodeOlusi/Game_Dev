@@ -7,14 +7,14 @@ using UnityEngine.UI;
 
 public class GameManager : MonoBehaviour
 {
-    public TextMeshProUGUI scoreText;
     private int score;
-    public List<GameObject> targets;
-    private float spawnRate = 8.0f;
-    public TextMeshProUGUI gameOver;
     public bool isGameActive;
+    private float spawnRate = 8.0f;
     public Button restartButton;
     public GameObject titleScreen;
+    public TextMeshProUGUI scoreText;
+    public List<GameObject> targets;
+    public TextMeshProUGUI gameOver;
 
     IEnumerator SpawnTarget()
     {
