@@ -12,9 +12,9 @@ public class BallController : MonoBehaviour
     private Vector3 nextCollisionPosition;
 
     public int minSwipeRecognition = 500;
+    private Vector2 currentSwipe;
     private Vector2 swipePosLastFrame;
     private Vector2 swipePosCurrentFrame;
-    private Vector2 currentSwipe;
 
     private Color solvedColor;
     public AudioClip swipeSound;
