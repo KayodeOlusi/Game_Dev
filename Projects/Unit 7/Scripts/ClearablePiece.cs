@@ -6,7 +6,6 @@ public class ClearablePiece : MonoBehaviour
 {
 
     public AnimationClip clearAnimation;
-
     private bool isBeingCleared = false;
 
     public bool IsBeingCleared
@@ -31,7 +30,6 @@ public class ClearablePiece : MonoBehaviour
     private IEnumerator ClearCoroutine()
     {
         Animator animator = GetComponent<Animator>();
-
         if (animator)
         {
             animator.Play(clearAnimation.name);
